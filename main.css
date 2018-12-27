@@ -126,7 +126,61 @@ ul.topnav li a:active{
 ul.topnav li.dropdownIcon{
     display: none;
 }
+
+/*****section2*****/
+/*******sect2*******/
+div.sect2{
+    background-color: #ada48f;
+    margin-bottom: 100px;
+}
+fieldset.section2{
+    margin: 50px;
+    margin-left: 100px;
+    border: none;
+}
+ input[type = checkbox]{
+    display: inline-block;
+    cursor: pointer;
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    /* padding: 10px; */
+    border-radius: 0;
+    
+    
+    
+}
+fieldset.section2 label{
+    margin: 0 14px;
+    color: #1a1813;
+}
+div.allproducts a:link,
+div.allproducts a:visited {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #670a0d;
+    padding: 10px 10px;
+    margin-top: 3rem;
+    border: 2px solid transparent;
+    border-radius: 2px;
+    transition: border-radius 0.8s;
+
+}
+
+div.allproducts a:hover{
+    border: 2px solid #860d11;
+
+}
+
 /************mobile ************/
+
+/******defaults*/
+.col-8,.col-4{
+    width: 100%;
+    margin: 0;
+}
+
 @media screen and (max-width: 680px){
     /* dropdown */
     ul.topnav li:not(:nth-child(1)){
@@ -174,6 +228,33 @@ ul.topnav li.dropdownIcon{
     }
     div.sect1 div p{
         font-size: 0.7rem;
+    }
+
+    /*****section-2****/
+    div.checkboxes{
+        margin:0 ;
+    }
+    div.allproducts{
+        margin: 25px ;
+        text-align: center;
+    }
+    fieldset.section2{
+        margin: 5px 0;
+    }
+    fieldset.section2 label{
+        margin: 0 7px;
+    }
+    input[type = checkbox]{
+       transform: scale(1);
+       -ms-transform: scale(1);
+       -webkit-transform: scale(1);
+        padding: 8px;
+    }
+
+    div.allproducts a:link,
+    div.allproducts a:visited,
+    div.allproducts a:hover{
+        font-size: 0.6rem;
     }
    
    
