@@ -8,8 +8,8 @@ nav,header,footer{
 }
 
 html{
-    background-color: #555;
-    color: #fff;
+    background-color: #fff;
+    color: #555;
     font-family: 'Lato','Dosi','Arial','San-serif';
     font-weight: 300;
     text-rendering: optimizeLegibility;
@@ -18,6 +18,9 @@ html{
 body{
     line-height: 1;
     
+}
+a{
+    text-decoration: none;
 }
 .container{
     width: 100%;
@@ -49,6 +52,11 @@ body{
 .col-11{width: 91.66%;}
 .col-12{width: 100%;}
 
+
+hr{
+    color: #dcdde1;
+}
+
 /******header******/
 header{
     background-image: url(assets/backgrounds/hero.jpg);
@@ -66,7 +74,7 @@ div.sect1 div h1{
     letter-spacing: 1px;
     word-spacing: 2px;
     font-size: 2.8rem;
-    margin-bottom: 60px;
+    margin-bottom: 3rem;
 }
 div.sect1 div p{
     font-weight: 400;
@@ -83,7 +91,7 @@ div.sect1 div p{
 nav {
     width: 100%;
     margin: 0;
-    margin-bottom: 180px;
+    margin-bottom: 10rem;
 }
 nav ul{
     
@@ -131,7 +139,7 @@ ul.topnav li.dropdownIcon{
 /*******sect2*******/
 div.sect2{
     background-color: #ada48f;
-    margin-bottom: 100px;
+    
 }
 fieldset.section2{
     margin: 50px;
@@ -173,15 +181,121 @@ div.allproducts a:hover{
 
 }
 
-/************mobile ************/
+/******section3*** */
+div.sect3{
+    padding: 40px;
+    
+}
+ div.sect4{ 
+    margin-bottom: 20px; 
+ }
 
-/******defaults*/
-.col-8,.col-4{
-    width: 100%;
-    margin: 0;
+div.menclothes p{
+    text-transform: uppercase;
+    font-size: 0.8rem;
 }
 
+div.exhibit{
+    text-align: right;
+}
+div.exhibit p{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #57461c;
+}
+div.exhibit a:link,
+div.exhibit a:visited{
+    text-decoration: none;
+    color: #57461c;
+    font-size: 0.8rem;
+}
+
+div.products{
+    background-color: #dfe4ea;
+    height: 300px;
+    width: 250px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin: auto;
+    margin-bottom: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+}
+span.dot {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: right;
+  }
+  div.align-left{
+      align-items: center;
+  }
+  
+  
+  span.green{
+      background-color: green;
+     margin-left: 0.8rem;
+  }
+  span.blue{
+      background: blue;
+  }
+  span.brown{
+      background-color: brown;
+  }  
+  span.red{
+      background-color: #670a0d;
+  }
+  span.white{
+      background-color: #fff;
+  }
+
+ div.col-6 p.price{
+    margin-left: 70px;
+}  
+
+
+a.productlink{
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+ 
+ 
+
+.products img {
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+
+
+.products:hover {
+    border: 2px solid #696969;
+    border-radius: 2%;
+} 
+
+
+/************mobile ************/
+
+
+
 @media screen and (max-width: 680px){
+
+    /******defaults*/
+   .col-8,.col-4,.col-3,.col-7{
+       width: 100%;
+       margin: 0;
+    }
     /* dropdown */
     ul.topnav li:not(:nth-child(1)){
         display: none;
@@ -255,6 +369,27 @@ div.allproducts a:hover{
     div.allproducts a:visited,
     div.allproducts a:hover{
         font-size: 0.6rem;
+    }
+    /* section3 */
+    div.exhibit{
+        text-align: center;
+    }
+    .col-1,.col-9,.col-4,.col-10,.col-3,.col-7,.col-2{
+        width: 100%;
+        align-items: center;
+        margin: 0;
+    }
+    span.green{
+        background-color: green;
+       margin-left: 1rem;
+    }
+    div.prod-size p{
+        align-items: center;
+        margin-bottom: 5px;
+    }
+    .products{
+        margin: 2px 5px;
+
     }
    
    
