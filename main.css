@@ -312,6 +312,54 @@ div.promosect p{
 }
 
 
+/* section7 */
+
+footer{
+    text-align: center;
+    padding: 40px 0;
+    background-color: #13151a;
+    color: #fff;
+}
+footer p{
+    line-height: 1.3;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    word-spacing: 2px;
+}
+div.social{
+    padding-top: 15px;
+}
+div.social a img{
+    margin: 2px;
+}
+div.cpac{
+    margin-bottom: 15px;
+}
+div.cpac a:link,
+div.cpac a:visited{
+    color: #aaa;
+    padding: 4px;
+    border-right: 1px solid #777;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+    letter-spacing: 1px;
+
+}
+div.cpac a:hover{
+    border-bottom: 1px solid #777;
+}
+div.footeright p{
+    letter-spacing: 1px;
+}
+p.copyright{
+    font-size: 0.5rem;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+
+
+
 /************mobile ************/
 
 
@@ -425,6 +473,12 @@ div.promosect p{
     
     }
    
+    /* section7 */
+   div.footermsg,
+   div.footer-social,
+   div.footerlink{
+       margin: 10px 0;
+}
    
 }
 
