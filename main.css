@@ -285,6 +285,19 @@ a.productlink{
 } 
 
 
+/******section4*******/
+section.legendsect{
+    background-image: url(assets/backgrounds/about.jpg);
+    padding: 50px 0;
+}
+fieldset.aboutus{
+    text-align: center;
+    color: #fff;
+    padding: 40px;
+    font-weight: 600;
+}
+
+
 /************mobile ************/
 
 
@@ -374,7 +387,7 @@ a.productlink{
     div.exhibit{
         text-align: center;
     }
-    .col-1,.col-9,.col-4,.col-10,.col-3,.col-7,.col-2{
+    .col-1,.col-9,.col-4,.col-10,.col-3,.col-7,.col-2,.col-6{
         width: 100%;
         align-items: center;
         margin: 0;
