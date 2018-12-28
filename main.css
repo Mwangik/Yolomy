@@ -297,6 +297,20 @@ fieldset.aboutus{
     font-weight: 600;
 }
 
+/******section6*******/
+div.promosect{
+    padding: 20px 0;
+    background: #57606f;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+div.promosect p{
+    display: inline-block;
+    padding-left: 20px;
+}
+
 
 /************mobile ************/
 
@@ -403,6 +417,12 @@ fieldset.aboutus{
     .products{
         margin: 2px 5px;
 
+    }
+    /* section6 */
+    div.promosect{
+        font-size: 0.8rem;
+        line-height: 1.3;
+    
     }
    
    
